@@ -1,0 +1,121 @@
+body {
+  background-color: #e4e9e1;
+}
+.App {
+  text-align: center;
+}
+.App h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: red;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #00ff00;
+}
+.title {
+  background-image: url("./Flooded-neighborhood_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 0;
+  margin-bottom: 20px;
+}
+#map {
+  max-width: 1200px;
+  border: 2px solid green;
+  position: relative;
+  background-image: url("./aaru.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+#map .alertbox {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+.main {
+  max-width: 1200px;
+  margin: 50px auto;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  padding: 12px;
+  background-color: white;
+}
+
+#location {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#chart {
+  flex: 1;
+}
+
+#alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#rain {
+  flex: 1;
+}
+#alert .off,
+#alert .on {
+  border: 1px solid black;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.graph {
+  margin: 20px auto;
+  width: 50%;
+}
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.weather span {
+  font-weight: 800;
+}
+#bottomgraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-item {
+  background-color: #e4e9e1;
+  padding: 5px 10px;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+
+.alert-text {
+  padding: 2px 5px;
+}
+
+.linkout {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 7px 10px;
+  margin: 10px 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkout a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
