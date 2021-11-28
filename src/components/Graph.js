@@ -9,7 +9,7 @@ function Graph({ data }) {
   const readcsv = async () => {
     const res = await fetch(
       //fetching csv data
-      "https://raw.githubusercontent.com/AslamJM/Personal-Portfolio-Template/main/predicted-data.csv"
+      "https://raw.githubusercontent.com/Safzath94/floodAlertSystem/main/predictedData.csv"
     );
     const data = await res.text();
     const rows = data.split(/\r?\n/);
