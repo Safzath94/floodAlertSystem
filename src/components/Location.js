@@ -18,7 +18,7 @@ function Location({ data, num, weatherData }) {
   });
   //condition for alert
   const alertState = data.filter((d) => {
-    return d.depth < 10 && d.rainfall === 1 && d.waterspeed >= 1000;
+    return Number(d.depth) < 10 && Number(d.rainfall) === 1 && Number(d.waterspeed) >= 1000;
   });
   return (
     <div className="main">
